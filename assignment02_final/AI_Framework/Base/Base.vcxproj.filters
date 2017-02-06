@@ -1,0 +1,399 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Shader">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Message">
+      <UniqueIdentifier>{c7af23f4-6096-47fb-b38d-af7aaa17363e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\State">
+      <UniqueIdentifier>{4efdc9f5-5ed7-4115-9942-50bda3c308b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\State">
+      <UniqueIdentifier>{19ef438b-cc2a-424a-a552-07b9d1b7362a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\AStar">
+      <UniqueIdentifier>{5e75e3b7-b301-421a-a44f-4d2df9072868}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\AStar">
+      <UniqueIdentifier>{d027777f-45df-4977-8bfb-0056d1ba5dda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Characters">
+      <UniqueIdentifier>{451856b5-3e1b-4cdc-8ddf-e9cb7e5ac4a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Character">
+      <UniqueIdentifier>{44bf3e7f-ffff-4598-a7f5-b80e16d616cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\State\Attacker">
+      <UniqueIdentifier>{2bef2199-fd9d-4621-9793-be61192e2836}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\State\Guardian">
+      <UniqueIdentifier>{baefda97-1ed5-4904-ba04-a30dc0d00d46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\State\Attacker">
+      <UniqueIdentifier>{99ee75b4-7fb6-460b-8aa9-0340af256ccb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Message">
+      <UniqueIdentifier>{641311c3-6e2e-4244-a32a-b32415f99e5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Bullet">
+      <UniqueIdentifier>{a4dc3bf1-f6f7-4d24-858c-febb4eab7b0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Bullet">
+      <UniqueIdentifier>{3c6c8287-263b-4f6f-9ea6-0b30100985ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\State\Guardian">
+      <UniqueIdentifier>{0b185f92-fd5b-44ec-8927-eef0eb9660b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\State\Gunner">
+      <UniqueIdentifier>{b0a86025-2543-4b3c-9b9e-6bd8b2c11184}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\State\Gunner">
+      <UniqueIdentifier>{c430c3df-325b-4777-9854-04cc40397387}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Message\MessageBoard">
+      <UniqueIdentifier>{961dff76-0d98-4458-8eae-6bf21dbacf6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\State\Support">
+      <UniqueIdentifier>{2d0404e7-d642-418e-a171-1ff33c69e7a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\State\Support">
+      <UniqueIdentifier>{9f42d847-e858-4a1e-b6d6-e9de95a843cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\State\Turret">
+      <UniqueIdentifier>{0c028d6a-127d-4a68-864d-64aa3b2de6b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\State\Brawler">
+      <UniqueIdentifier>{b8260715-f6cd-4d4a-bfd1-e69540f1757e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\State\Turret">
+      <UniqueIdentifier>{e6940001-5007-409e-9d52-1f17d609b89e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\State\Brawler">
+      <UniqueIdentifier>{3dbc42fe-569d-484d-93be-f19b415f7a8a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\Application.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\RenderHelper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Mesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MeshBuilder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\OBJMesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\TextEntity.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SpriteEntity.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Light.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SceneAI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\AStar.cpp">
+      <Filter>Source Files\AStar</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Character.cpp">
+      <Filter>Source Files\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Attacker.cpp">
+      <Filter>Source Files\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Attacker_Attack.cpp">
+      <Filter>Source Files\State\Attacker</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Attacker_Move.cpp">
+      <Filter>Source Files\State\Attacker</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Attacker_Reload.cpp">
+      <Filter>Source Files\State\Attacker</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Attacker_Run.cpp">
+      <Filter>Source Files\State\Attacker</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CharacterCreated.cpp">
+      <Filter>Source Files\Message</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Bullet.cpp">
+      <Filter>Source Files\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Guardian.cpp">
+      <Filter>Source Files\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Guardian_Follow.cpp">
+      <Filter>Source Files\State\Guardian</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Guardian_Defend.cpp">
+      <Filter>Source Files\State\Guardian</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Guardian_Run.cpp">
+      <Filter>Source Files\State\Guardian</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Guardian_Attack.cpp">
+      <Filter>Source Files\State\Guardian</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MessageBoard.cpp">
+      <Filter>Source Files\Message</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Gunner_Attack.cpp">
+      <Filter>Source Files\State\Gunner</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Gunner_Chase.cpp">
+      <Filter>Source Files\State\Gunner</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Gunner_Patrol.cpp">
+      <Filter>Source Files\State\Gunner</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Gunner_Reload.cpp">
+      <Filter>Source Files\State\Gunner</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Gunner_Run.cpp">
+      <Filter>Source Files\State\Gunner</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Gunner.cpp">
+      <Filter>Source Files\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Support.cpp">
+      <Filter>Source Files\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Support_Buff.cpp">
+      <Filter>Source Files\State\Support</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Support_Follow.cpp">
+      <Filter>Source Files\State\Support</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Support_Heal.cpp">
+      <Filter>Source Files\State\Support</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Support_Run.cpp">
+      <Filter>Source Files\State\Support</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Turret_Attack.cpp">
+      <Filter>Source Files\State\Turret</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Turret_Idle.cpp">
+      <Filter>Source Files\State\Turret</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Turret_Reload.cpp">
+      <Filter>Source Files\State\Turret</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Brawler_Attack.cpp">
+      <Filter>Source Files\State\Brawler</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Brawler_Move.cpp">
+      <Filter>Source Files\State\Brawler</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Brawler_Run.cpp">
+      <Filter>Source Files\State\Brawler</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Brawler.cpp">
+      <Filter>Source Files\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Turret.cpp">
+      <Filter>Source Files\Character</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\Application.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\RenderHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Mesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\MeshBuilder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\OBJMesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\TextEntity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SpriteEntity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Light.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\State.h">
+      <Filter>Header Files\State</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SceneAI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Camera2D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\AStar.h">
+      <Filter>Header Files\AStar</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GameManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Character.h">
+      <Filter>Header Files\Characters</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Attacker.h">
+      <Filter>Header Files\Characters</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Attacker_Attack.h">
+      <Filter>Header Files\State\Attacker</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Attacker_State.h">
+      <Filter>Header Files\State\Attacker</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CharacterInfo.h">
+      <Filter>Header Files\Message</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Attacker_Move.h">
+      <Filter>Header Files\State\Attacker</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Attacker_Run.h">
+      <Filter>Header Files\State\Attacker</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Attacker_Reload.h">
+      <Filter>Header Files\State\Attacker</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CharacterCreated.h">
+      <Filter>Header Files\Message</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ExistingCharacterCheck.h">
+      <Filter>Header Files\Message</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ExistingCharacterReply.h">
+      <Filter>Header Files\Message</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Bullet.h">
+      <Filter>Header Files\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Guardian.h">
+      <Filter>Header Files\Characters</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Guardian_Defend.h">
+      <Filter>Header Files\State\Guardian</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Guardian_Run.h">
+      <Filter>Header Files\State\Guardian</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Guardian_State.h">
+      <Filter>Header Files\State\Guardian</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Guardian_Follow.h">
+      <Filter>Header Files\State\Guardian</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\RequestHelp.h">
+      <Filter>Header Files\Message</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Guardian_Attack.h">
+      <Filter>Header Files\State\Guardian</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\EnemyDetected.h">
+      <Filter>Header Files\Message</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CharacterDeleted.h">
+      <Filter>Header Files\Message</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\MessageReply.h">
+      <Filter>Header Files\Message</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\MessageBoard.h">
+      <Filter>Header Files\Message\MessageBoard</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\MessageLog.h">
+      <Filter>Header Files\Message\MessageBoard</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Gunner.h">
+      <Filter>Header Files\Characters</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Support.h">
+      <Filter>Header Files\Characters</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Gunner_Attack.h">
+      <Filter>Header Files\State\Gunner</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Gunner_Chase.h">
+      <Filter>Header Files\State\Gunner</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Gunner_Patrol.h">
+      <Filter>Header Files\State\Gunner</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Gunner_Reload.h">
+      <Filter>Header Files\State\Gunner</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Gunner_Run.h">
+      <Filter>Header Files\State\Gunner</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Support_Buff.h">
+      <Filter>Header Files\State\Support</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Support_Follow.h">
+      <Filter>Header Files\State\Support</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Support_Heal.h">
+      <Filter>Header Files\State\Support</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Support_Run.h">
+      <Filter>Header Files\State\Support</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Turret_Attack.h">
+      <Filter>Header Files\State\Turret</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Turret_Idle.h">
+      <Filter>Header Files\State\Turret</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Turret_Reload.h">
+      <Filter>Header Files\State\Turret</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Turret_State.h">
+      <Filter>Header Files\State\Turret</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Brawler_Attack.h">
+      <Filter>Header Files\State\Brawler</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Brawler_Move.h">
+      <Filter>Header Files\State\Brawler</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Brawler_Run.h">
+      <Filter>Header Files\State\Brawler</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Brawler_State.h">
+      <Filter>Header Files\State\Brawler</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Brawler.h">
+      <Filter>Header Files\Characters</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Turret.h">
+      <Filter>Header Files\Characters</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
